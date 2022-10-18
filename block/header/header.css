@@ -1,0 +1,8 @@
+.header {
+  padding: 28px 48px;
+  display: grid;
+  grid-template-rows: 52px;
+  grid-template-columns: calc(100% - 92px) 28px 28px;
+  gap: 18px;
+  align-items: end;
+}

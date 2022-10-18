@@ -1,0 +1,168 @@
+@media screen and (max-width: 1279px) {
+
+  .lead__map {
+    max-width: 928px;
+  }
+
+  .intro {
+    max-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+
+  .photo-grid {
+    max-width: 928px;
+  }
+
+  .place {
+    margin: 32px 48px 48px 48px;
+    gap: 26px 32px;
+    max-width: 928px;
+  }
+
+  .place__image {
+    max-width: 440px;
+  }
+
+  .cover {
+    height: 62.5vw;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+
+  .intro {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .photo-grid {
+    margin: 60px 24px;
+  }
+
+  .place {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    max-width: 720px;
+    gap: 26px 28px;
+  }
+
+  .place__image {
+    width: 340px;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 16px;
+    grid-template-columns: 1fr 22px 22px;
+    grid-template-rows: 42px;
+  }
+
+  .header__lang-link {
+    font-size: 5.625vw;
+    line-height: 111%;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    font-size: 12.5vw;
+    line-height: 110%;
+    margin: 32px auto 12px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .lead__map {
+    margin: 36px auto 32px;
+  }
+
+  .intro__title {
+    font-size: 10vw;
+    line-height: 109%;
+  }
+
+  .intro {
+    margin-left: 16px;
+    padding-bottom: 4px;
+    margin-right: 16px;
+  }
+
+  .photo-grid {
+    margin: 60px 16px;
+  }
+
+  .place {
+    margin-left: 0;
+    margin-right: 0;
+    gap: 32px;
+    grid-template-columns: 1fr;
+  }
+
+  .place__image {
+    max-width: 100%;
+    align-self: stretch;
+    grid-row: 3/4;
+  }
+
+  .place__title {
+    font-size: 10vw;
+    line-height: 109%;
+    max-width: 288px;
+    margin-left: 16px;
+  }
+  .place__website {
+    margin-left: 16px;
+    grid-row: 2/3;
+  }
+
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .cover {
+    margin: 66px 0;
+  }
+
+  .cover__wrapper {
+    gap: 16px;
+  }
+
+  .cover__title {
+    font-size: 10vw;
+    line-height: 109%;
+    max-width: 70vw;
+  }
+
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 278px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+    margin: 0 16px;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
