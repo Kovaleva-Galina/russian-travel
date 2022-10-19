@@ -3,5 +3,7 @@
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
-  color: #AAA
+  color: #AAA;
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }

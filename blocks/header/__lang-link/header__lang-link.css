@@ -3,10 +3,7 @@
   line-height: 28px;
   color: #FFFFFF;
   text-decoration: none;
-}
-
-.header__lang-link_on {
-  text-decoration: underline;
+  transition: opacity 1s;
 }
 
 .header__lang-link:hover {

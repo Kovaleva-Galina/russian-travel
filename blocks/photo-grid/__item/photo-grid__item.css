@@ -1,0 +1,11 @@
+.photo-grid__item {
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    width: 90vw;
+    margin: auto;
+  }
+}
+

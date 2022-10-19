@@ -1,11 +1,12 @@
 .lead__map {
-  margin: 60px auto;
+  margin: 64px auto 60px;
   max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
   .lead__map {
     max-width: 928px;
+    margin-top: 52px;
   }
 }
 

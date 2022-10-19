@@ -4,15 +4,19 @@
   margin: auto;
   display: grid;
   grid-template-rows: 52px;
-  grid-template-columns: calc(100% - 92px) 28px 28px;
-  gap: 18px;
-  align-items: end;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 28px 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .header {
     padding: 16px;
-    grid-template-columns: 1fr 22px 22px;
     grid-template-rows: 42px;
   }
 }
