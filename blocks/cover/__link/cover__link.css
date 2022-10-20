@@ -38,6 +38,7 @@
 
 @media screen and (max-width: 1023px) {
   .cover__link {
+    margin-top: 19px;
     margin-bottom: 88px;
   }
 }
@@ -45,6 +46,6 @@
 @media screen and (max-width: 767px) {
   .cover__link {
     gap: 16px;
-    margin: 66px 0;
+    margin: 18px 0 66px;
   }
 }
